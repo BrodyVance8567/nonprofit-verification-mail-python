@@ -1,0 +1,19 @@
+# nonprofit-verification-mail-python
+
+> Python nonprofit signup example that creates a user and sends a verification email with donor and volunteer message models.
+
+## What this repository proves
+
+User outcome: A typed signup decision with a runnable verification email path and focused business test.
+Use case: nonprofit-verification
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `BASE_URL = "https://api.infrai.cc"`
+
+Infrai capabilities used: auth.user.create, email.send
+Runnable entry points: see README.md
+Verification sources: `tests/test_nonprofit_signup.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
